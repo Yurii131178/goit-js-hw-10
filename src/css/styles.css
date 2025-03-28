@@ -20,6 +20,7 @@ body {
 #datetime-picker {
   width: 272px;
   height: 40px;
+  padding: 8px 16px;
   border-radius: 4px;
   border: 1px solid #808080;
   font-size: 16px;
@@ -34,7 +35,7 @@ body {
 button[data-start] {
   display: flex;
   width: 75px;
-  height: 400x;
+  height: 40px;
   padding: 8px 16px;
   justify-content: center;
   align-items: center;
