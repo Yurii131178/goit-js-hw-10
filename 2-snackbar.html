@@ -5,7 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2-snackbar</title>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-BTo9OZEo.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+    />
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/styles-GsblW8b6.js"></script>
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-DQuMT9PH.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/2-snackbar-EGQRyi-U.css">
   </head>
-  <body></body>
+  <body>
+    <form class="form">
+      <label>
+        Delay (ms)
+        <input type="number" name="delay" required />
+      </label>
+
+      <fieldset>
+        <legend>State</legend>
+        <label>
+          <input type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label>
+          <input type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button type="submit">Create notification</button>
+    </form>
+  </body>
 </html>
